@@ -1,0 +1,17 @@
+.clearfix {
+  @include clearfix();
+}
+
+.left {
+  float: left !important;
+}
+
+.right {
+  float: right !important;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
